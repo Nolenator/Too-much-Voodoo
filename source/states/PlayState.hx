@@ -10,7 +10,7 @@ class PlayState extends FlxState
 		super.create();
 
 	var text = new FlxText(100, 100, 100, "Is this Voodoo, or is it divine intellect?");
-addChild(text);
+add(text);
 	}
 
 	override public function update(elapsed:Float)
