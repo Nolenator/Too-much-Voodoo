@@ -14,5 +14,5 @@ class PlayState extends FlxState
 		super.update(elapsed);
 	}
 var text = new FlxText(100, 100, 100, "Is this Voodoo, or is it divine intellect?");
-add(text);
+addChild(text);
 }
